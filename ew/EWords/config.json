@@ -1,0 +1,41 @@
+﻿{
+	"id": "com.easy.words",
+	"version": "1",
+	"name": "Easy Words",
+	"description": "Teaching game",
+	"author": "Ivan Matveichenkov",
+	"email": "nevermind.84@mail.ru",
+	"website": "",
+	"fullscreen": "true",
+	"useragent": null,
+	"orientation": "landscape",
+	"icons": [{
+		"src": "www/icon-256.png",
+		"width": 256,
+		"height": 256,
+		"density": "xxxhdpi"
+	}, {
+		"src": "www/icon-128.png",
+		"width": 128,
+		"height": 128,
+		"density": "xhdpi"
+	}],
+	"plugins": [
+		{ "id": "cc.fovea.cordova.purchase", "version": null },
+		{ "id": "com.mcm.plugins.androidinappbilling", "version": null },
+		{ "id": "cordova-custom-config", "version": null },
+		{ "id": "cordova-plugin-file", "version": null },
+		{ "id": "cordova-plugin-statusbar", "version": null },
+		{ "id": "cordova-plugin-whitelist", "version": null },
+		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
+	],
+	"android": {
+		"min": 21,
+		"target": 28,
+		"plugins": []
+	},
+	"ios": {
+		"target": "9.0",
+		"plugins": []
+	}
+}
